@@ -28,6 +28,18 @@
     # pre-commit run # test
     ```
 
+## Sync fork
+
+```bash
+git fetch upstream
+git merge upstream/master
+```
+
+- handle conflicts
+- commit & push via gui
+
+see: https://stackoverflow.com/a/19506355
+
 ## GitHub Codespace Setup
 
 - docker is already installed
