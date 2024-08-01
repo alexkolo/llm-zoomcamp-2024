@@ -8,6 +8,7 @@ pandas
 pre-commit
 python-dotenv
 requests
+rouge==1.0.1
 sentence_transformers
 tiktoken
 tqdm
