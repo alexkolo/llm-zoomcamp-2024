@@ -28,15 +28,18 @@
     # pre-commit run # test
     ```
 
-## Sync fork
+## Sync with upstream fork
 
-```bash
-git fetch upstream
-git merge upstream/master
-```
+- via command line:
 
-- handle conflicts
-- commit & push via gui
+    ```bash
+    git fetch upstream
+    git merge upstream/main
+    ```
+
+- via VSCode:
+    - handle conflicts
+    - commit & push via _Source Control_ GUI
 
 see: https://stackoverflow.com/a/19506355
 
