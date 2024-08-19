@@ -37,9 +37,11 @@
     git merge upstream/main
     ```
 
-- via VSCode:
+- via VSCode  (_Source Control_ GUI):
+    - "fetch" -> "upstream"
+    - "branch" -> "merge..." -> "upstream/main"
     - handle conflicts
-    - commit & push via _Source Control_ GUI
+    - commit & push
 
 see: https://stackoverflow.com/a/19506355
 
