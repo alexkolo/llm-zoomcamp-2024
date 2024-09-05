@@ -1,6 +1,7 @@
 # Projects 
 
-Video: https://www.loom.com/share/8f99d25893de4fb8aaa95c0395c740b6
+* Video: https://www.loom.com/share/8f99d25893de4fb8aaa95c0395c740b6
+* Office hours: https://www.youtube.com/watch?v=pA9S1mTqAwU
 
 In order to receive a certificate of completion for the course, you need
 to deliver a project. There are two attempts for that.
@@ -20,7 +21,7 @@ For the project, we ask you to build an end-to-end RAG project.
 
 For that, you need:
 
-* Select a dataset that you're interested in (see [Datasets](#datasets))
+* Select a dataset that you're interested in (see [Datasets](#datasets) for examples and ideas)
 * Ingest the data into a knowledge base
 * Implement the RAG flow: query the knowledge base, build the prompt, send the promt to an LLM
 * Evaluate the performance of your RAG flow
@@ -100,10 +101,9 @@ If you're not certain about some tools, ask in Slack.
     * [ ] Hybrid search: combining both text and vector search (at least evaluating it) (1 point)
     * [ ] Document re-ranking (1 point)
     * [ ] User query rewriting (1 point)
-    * [ ] More TBA 
 * Bonus points (not covered in the course)
     * [ ] Deployment to the cloud (2 points)
-    * [ ] More TBA
+
 
 ## Project ideas
 
