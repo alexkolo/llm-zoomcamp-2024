@@ -6,7 +6,7 @@
 In order to receive a certificate of completion for the course, you need
 to deliver a project. There are two attempts for that.
 
-[Submit your project here](cohorts/2024/project.md)
+[Submit your project here](cohorts/2025/project.md)
 
 
 ## Objective
@@ -23,7 +23,7 @@ For that, you need:
 
 * Select a dataset that you're interested in (see [Datasets](#datasets) for examples and ideas)
 * Ingest the data into a knowledge base
-* Implement the RAG flow: query the knowledge base, build the prompt, send the promt to an LLM
+* Implement the retrieval flow: query the knowledge base, build the prompt, send the promt to an LLM
 * Evaluate the performance of your RAG flow
 * Create an interface for the application
 * Collect user feedback and monitor your application
@@ -39,6 +39,7 @@ Your project rises or falls with its documentation. Hence, here are some general
 * **Be Detailed and Comprehensive 📋**: Include as much detail as possible in the README file. Explain the setup, the functionality, and the workflow of your project. Tools like ChatGPT or other LLMs can assist you in expanding and refining your documentation.
 * **Provide Clear Setup Instructions ⚙️**: Include step-by-step instructions on how to set up and run your project locally. Make sure to cover dependencies, configurations, and any other requirements needed to get your project up and running.
 * **Use Visuals and Examples 🖼️**: Wherever possible, include diagrams, screenshots, or GIFs to illustrate key points. Use examples to show how to use your project, demonstrate common use cases, and provide sample inputs and expected outputs.
+  * **App Preview Video 🎥**: Consider adding a short preview video of your app in action to the README. For example, if you're using Streamlit, you can easily record a screencast from the app's top-right menu ([Streamlit Guide](https://docs.streamlit.io/develop/concepts/architecture/app-chrome)). Once you saved the video file locally, you can just drag & drop it into the online GitHub editor of your README to add it ([Ref](https://stackoverflow.com/a/4279746)).
 * **Organize with Sub-Files 🗂️**: If your documentation becomes lengthy, consider splitting it into sub-files and linking them in your README. This keeps the main README clean and neat while providing additional detailed information in separate files (e.g., `setup.md`, `usage.md`, `contributing.md`).
 * **Keep It Updated 🔄**: As your project evolves, make sure your documentation reflects any changes or updates. Outdated documentation can confuse readers and diminish the credibility of your project.
 
@@ -90,18 +91,18 @@ If you're not certain about some tools, ask in Slack.
     * 0 points: The problem is not described
     * 1 point: The problem is described but briefly or unclearly
     * 2 points: The problem is well-described and it's clear what problem the project solves
-* RAG flow
+* Retrieval flow
     * 0 points: No knowledge base or LLM is used
     * 1 point: No knowledge base is used, and the LLM is queried directly
-    * 2 points: Both a knowledge base and an LLM are used in the RAG flow 
+    * 2 points: Both a knowledge base and an LLM are used in the flow 
 * Retrieval evaluation
     * 0 points: No evaluation of retrieval is provided
     * 1 point: Only one retrieval approach is evaluated
     * 2 points: Multiple retrieval approaches are evaluated, and the best one is used
-* RAG evaluation
-    * 0 points: No evaluation of RAG is provided
-    * 1 point: Only one RAG approach (e.g., one prompt) is evaluated
-    * 2 points: Multiple RAG approaches are evaluated, and the best one is used
+* LLM evaluation
+    * 0 points: No evaluation of final LLM output is provided
+    * 1 point: Only one approach (e.g., one prompt) is evaluated
+    * 2 points: Multiple approaches are evaluated, and the best one is used
 * Interface
    * 0 points: No way to interact with the application at all
    * 1 point: Command line interface, a script, or a Jupyter notebook

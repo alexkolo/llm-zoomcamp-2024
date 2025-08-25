@@ -1,134 +1,124 @@
-# LLM Zoomcamp 
 <p align="center">
-  <img src="images/llm-zoomcamp.jpg"  />
+  <img width="80%" src="images/llm-zoomcamp-2025.jpg" alt="LLM Zoomcamp">
 </p>
 
-
-
-LLM Zoomcamp - a free online course about real-life applications of LLMs. In 10 weeks you will learn how to build an AI system that answers questions about your 
-knowledge base.
-
+<h1 align="center">
+    <strong>LLM Zoomcamp: A Free Course on Real-Life Applications of LLMs</strong>
+</h1>
 
 <p align="center">
-  <a href="https://airtable.com/appPPxkgYLH06Mvbw/shr7WtxHEPXxaui0Q"><img src="https://user-images.githubusercontent.com/875246/185755203-17945fd1-6b64-46f2-8377-1011dcb1a444.png" height="50" /></a>
+In 10 weeks, learn how to build AI systems that answer questions about your knowledge base. Gain hands-on experience with LLMs, RAG, vector search, evaluation, monitoring, and more.
 </p>
 
-- Give us a star to support the course!
-- Register in [DataTalks.Club's Slack](https://datatalks.club/slack.html)
-- Join the [`#course-llm-zoomcamp`](https://app.slack.com/client/T01ATQK62F8/C06TEGTGM3J) channel
-- Join the [course Telegram channel with announcements](https://t.me/llm_zoomcamp)
-- The videos are published on [DataTalks.Club's YouTube channel](https://www.youtube.com/c/DataTalksClub) in [the course playlist](https://www.youtube.com/playlist?list=PL3MmuxUbc_hKiIVNf7DeEt_tGjypOYtKV)
-- [Frequently asked technical questions](https://docs.google.com/document/d/1m2KexowAXTmexfC5rVTCSnaShvdUQ8Ag2IEiwBDHxN0/edit?usp=sharing)
-- [Course Calendar](https://calendar.google.com/calendar/?cid=NjkxOThkOGFhZmUyZmQwMzZjNDFkNmE2ZDIyNjE5YjdiMmQyZDVjZTYzOGMxMzQyZmNkYjE5Y2VkNDYxOTUxY0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t)
+<p align="center">
+<a href="https://airtable.com/appPPxkgYLH06Mvbw/shr7WtxHEPXxaui0Q"><img src="https://user-images.githubusercontent.com/875246/185755203-17945fd1-6b64-46f2-8377-1011dcb1a444.png" height="50" /></a>
+</p>
 
+<p align="center">
+<a href="https://datatalks.club/slack.html">Join Slack</a> •
+<a href="https://app.slack.com/client/T01ATQK62F8/C06TEGTGM3J">#course-llm-zoomcamp Channel</a> •
+<a href="https://t.me/llm_zoomcamp">Telegram Announcements</a> •
+<a href="https://www.youtube.com/playlist?list=PL3MmuxUbc_hIB4fSqLy_0AfTjVLpgjV3R">Course Playlist</a> •
+<a href="https://docs.google.com/document/d/1m2KexowAXTmexfC5rVTCSnaShvdUQ8Ag2IEiwBDHxN0/edit?usp=sharing">FAQ</a>
+</p>
 
-## 2024 cohort 
+## How to Take LLM Zoomcamp
 
-- Start date: June 17
-- [Materials specific to 2024 cohort](cohorts/2024/)
- 
+### 2025 Cohort
+- **Start Date**: June 2, 2025, 17:00 CET
+- **Register Here**: [Sign up](https://airtable.com/appPPxkgYLH06Mvbw/shr7WtxHEPXxaui0Q)
 
-## Pre-requisites
+2025 cohort checklist:
+- Subscribe to our [Google Calendar](https://calendar.google.com/calendar/?cid=NjkxOThkOGFhZmUyZmQwMzZjNDFkNmE2ZDIyNjE5YjdiMmQyZDVjZTYzOGMxMzQyZmNkYjE5Y2VkNDYxOTUxY0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t)
+- Check [2025 cohort folder](https://github.com/DataTalksClub/llm-zoomcamp/tree/main/cohorts/2025) to stay updated
+- Watch [live Q&A](https://youtube.com/live/8lgiOLMMKcY) about the course
+- Watch [live course launch](https://www.youtube.com/live/FgnelhEJFj0) stream
+- Save the [2025 course playlist](https://youtube.com/playlist?list=PL3MmuxUbc_hIoBpuc900htYF4uhEAbaT-&si=n7CuD0DEgPtnbtsI) on YouTube
+- Check course content by navigating to the right module on GitHub
+- Share this course with a friend!
 
-* Comfortable with programming and Python
-* Comfortable with command line
-* Docker
-* No previous exposure to AI or ML is required
-
+### Self-Paced Learning
+You can follow the course at your own pace:
+1. Watch the course videos.
+2. Complete the homework assignments.
+3. Work on a project and share it in Slack for feedback.
 
 ## Syllabus
 
-We encourage [Learning in Public](learning-in-public.md)
+### Pre-course Workshops
+- [Build a Search Engine](https://www.youtube.com/watch?v=nMrGK5QgPVE) ([Code](https://github.com/alexeygrigorev/build-your-own-search-engine))
 
-### Pre-course workshops
+### Modules
 
-Implement a search engine: [Video](https://www.youtube.com/watch?v=nMrGK5QgPVE), [code](https://github.com/alexeygrigorev/build-your-own-search-engine)
+#### [Module 1: Introduction to LLMs and RAG](01-intro/)
+- Basics of LLMs and Retrieval-Augmented Generation (RAG)
+- OpenAI API and text search with Elasticsearch
 
-### 1. [Introduction to LLMs and RAG](01-intro/)
+#### [Module 2: Vector Search](02-vector-search/)
 
-* LLMs and RAG
-* Preparing the environment 
-* Retrieval and the basics of search
-* OpenAI API
-* Simple RAG with Open AI
-* Text search with Elasticsearch
-
-### 2. [Open-source LLMs](02-open-source/)
-
-* Getting an environment with a GPU
-* Open-source models from HuggingFace Hub
-* Running LLMs on a CPU with Ollama
-* Creating a simple UI with Streamlit 
-
-### 3. [Vector databases](03-vector-search/)
-
-* Vector search
-* Creating and indexing embeddings
-* Vector search with Elasticsearch
-* Offline evaluation of retrieval
-
-### [Workshop: dlt](cohorts/2024/workshops/dlt.md)
+- Vector search and embeddings
+- Indexing and retrieving data efficiently
+- Using Qdrant as the vector database
 
 
-### 4. [Evaluation and monitoring](04-monitoring/)
+#### [Workshop: Open-Source Data Ingestion](cohorts/2025/workshops/dlt.md)
 
-* Offline evaluation of RAG
-* Cosine and LLM-as-a-Judge metrics 
-* Tracking chat history and user feedback
-* Creating dashboards with Grafana for visualization
-
-### 5. [LLM orchestration and ingestion](05-orchestration/)
-
-* Ingesting data with Mage
+- Using `dlt` for ingesting data for RAG
 
 
-### 6. [Best practices](06-best-practices/)
+#### [Module A: Agents (bonus)](0a-agents/)
 
-* Techniques to improve RAG pipeline
-* Hybrid search
-* Document reranking
-* Hybrid search with LangChain
+- Adding Agentic functionality to RAG
+- Function calling
 
-### 7. [Bonus: End-to-End project example](07-project-example/) (Optional)
+#### [Module 3: Evaluation](03-evaluation/)
 
-* Building an end-to-end fitness assistant project
-* Examples of pre-processing text datasets 
+- Search evaluation
+- Online vs offline evaluation
+- LLM as a Judge
 
-### LLM Zoomcamp 2024 Competition
+#### [Module 4: Monitoring](04-monitoring/)
 
-[More details](cohorts/2024/competition/)
+- Online evaluation techniques
+- Monitoring user feedback with dashboards
 
-### [Hands-on project](project.md)
 
-<p align="center">
-  <a href="https://airtable.com/appPPxkgYLH06Mvbw/shr7WtxHEPXxaui0Q"><img src="https://user-images.githubusercontent.com/875246/185755203-17945fd1-6b64-46f2-8377-1011dcb1a444.png" height="50" /></a>
-</p>
+#### [Module 5: Best Practices](05-best-practices/)
+- Hybrid search
+- Document reranking
 
-## Instructors
+#### [Module 6: Bonus - End-to-End Project](06-project-example/)
+- Build a fitness assistant using LLMs
 
+### [Capstone Project](project.md)
+
+Put eveything you learned into practice
+
+## Meet the Instructors
 - [Alexey Grigorev](https://linkedin.com/in/agrigorev/)
-- [Magdalena Kuhn](https://www.linkedin.com/in/magdalenakuhn/)
-- [Balaji Dhamodharan](https://www.linkedin.com/in/balaji-dhamodharan-91b45615/)
-- [Tommy Dang](https://www.linkedin.com/in/dangtommy/)
 - [Timur Kamaliev](https://www.linkedin.com/in/timurkamaliev/)
 
-## Asking questions
+## Community & Support
 
-The best way to get support is to use [DataTalks.Club's Slack](https://datatalks.club/slack.html). Join the [`#course-llm-zoomcamp`](https://app.slack.com/client/T01ATQK62F8/C06TEGTGM3J).
+### **Getting Help on Slack**
+Join the [`#course-llm-zoomcamp`](https://app.slack.com/client/T01ATQK62F8/C06TEGTGM3J) channel on [DataTalks.Club Slack](https://datatalks.club/slack.html) for discussions, troubleshooting, and networking.
 
-To make discussions in Slack more organized:
+To keep discussions organized:
+- Follow [our guidelines](asking-questions.md) when posting questions.
+- Review the [community guidelines](https://datatalks.club/slack/guidelines.html).
 
-* Follow [these recommendations](asking-questions.md) when asking for help
-* Read the [DataTalks.Club community guidelines](https://datatalks.club/slack/guidelines.html)
-
-
-## Supporters and partners
-
-Thanks to the course sponsors for making it possible to run this course
+## Sponsors & Supporters
+A special thanks to our course sponsors for making this initiative possible!
 
 <p align="center">
-  <a href="https://mage.ai/">
-    <img height="120" src="https://github.com/DataTalksClub/data-engineering-zoomcamp/raw/main/images/mage.svg">
+  <a href="https://arize.com/">
+    <img height="120" src="https://datatalks.club/images/partners/arize.png">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://qdrant.tech/">
+    <img height="120" src="images/qdrant.png">
   </a>
 </p>
 
@@ -138,11 +128,31 @@ Thanks to the course sponsors for making it possible to run this course
   </a>
 </p>
 
+
+Interested in supporting our community? Reach out to [alexey@datatalks.club](mailto:alexey@datatalks.club).
+
+## About DataTalks.Club
+
 <p align="center">
-  <a href="https://saturncloud.io/">
-    <img height="120" src="images/saturn-cloud.png">
-  </a>
+  <img width="40%" src="https://github.com/user-attachments/assets/1243a44a-84c8-458d-9439-aaf6f3a32d89" alt="DataTalks.Club">
 </p>
 
+<p align="center">
+<a href="https://datatalks.club/">DataTalks.Club</a> is a global online community of data enthusiasts. It's a place to discuss data, learn, share knowledge, ask and answer questions, and support each other.
+</p>
 
-Do you want to support our course and our community? Please reach out to [alexey@datatalks.club](alexey@datatalks.club)
+<p align="center">
+<a href="https://datatalks.club/">Website</a> •
+<a href="https://datatalks.club/slack.html">Join Slack Community</a> •
+<a href="https://us19.campaign-archive.com/home/?u=0d7822ab98152f5afc118c176&id=97178021aa">Newsletter</a> •
+<a href="http://lu.ma/dtc-events">Upcoming Events</a> •
+<a href="https://calendar.google.com/calendar/?cid=ZjhxaWRqbnEwamhzY3A4ODA5azFlZ2hzNjBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ">Google Calendar</a> •
+<a href="https://www.youtube.com/@DataTalksClub/featured">YouTube</a> •
+<a href="https://github.com/DataTalksClub">GitHub</a> •
+<a href="https://www.linkedin.com/company/datatalks-club/">LinkedIn</a> •
+<a href="https://twitter.com/DataTalksClub">Twitter</a>
+</p>
+
+All the activity at DataTalks.Club mainly happens on [Slack](https://datatalks.club/slack.html). We post updates there and discuss different aspects of data, career questions, and more.
+
+At DataTalksClub, we organize online events, community activities, and free courses. You can learn more about what we do at [DataTalksClub Community Navigation](https://www.notion.so/DataTalksClub-Community-Navigation-bf070ad27ba44bf6bbc9222082f0e5a8?pvs=21).
